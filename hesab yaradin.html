@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni bir hesab</title>
+    <style>
+        form{
+            text-align: center;
+                text-decoration: blanchedalmond;
+                border: 1px solid ;
+                border-radius: 10px;
+                width: 30%;
+                font-style: oblique;
+                margin: 200px;
+                padding: 1px;
+        }
+      
+        input{
+            
+            margin: 5px;
+            padding: 5px;
+            font-style: normal;
+            border-radius: 10px;
+            border: 1px solid black;
+            outline: none;
+            width: 90%;
+        }
+        button{
+            border: 2px solid grey;
+            font-style: oblique;
+            font-weight: 600;
+            font-size: small;
+            background-color: rgba(20, 197, 220, 0.295);
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2  style="text-align: center;color: blue;" >Abunə olun </h2>
+        <input type="text" placeholder="Adınızı daxil edin..." minlength="1" maxlength="50"  required> 
+        <input type="text" placeholder="Soyadınızı daxil edin..." min="2" max="6">
+        <br>
+        <input inputmode="email" type="email" placeholder="Email ünvanınızı daxil edin..." required>
+        <br>
+        <input type="password" placeholder="Şifrənizi daxil edin" required>
+        <input type="password" placeholder="Şifrənizi yeniden daxil edin" required>
+        <br>
+        <label for="ad günü" style="font-size: 1em;" >ad gününüzü qeyd edin</label>
+        <br>
+         <input type="date">
+         <br>
+         <label for="cins" style="font-size: 1em;">Cinsiyyətinizi qeyd edin</label>
+         <br>
+         <button>Qadın<input type="radio" ></button>
+         <button>Kişi<input type="radio" ></button>
+         <br>
+         <br>
+         <input type="submit" style="font-size: 1em; font-style: oblique; font-weight: bolder; color: white; background-color: blue;" value="Yaradin" >
+         
+      
+</body>
+</html>
